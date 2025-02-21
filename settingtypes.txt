@@ -1,0 +1,8 @@
+#    Time to sleep max 1
+time_to_sleep (Time to sleep) float 0.78
+
+#    Disable or enable Leaf torch
+leaf_torch (Leaf torch) bool true
+
+#    Disable or enable Sleeping bag
+sleeping_bag (Sleeping bag reipe) bool true
