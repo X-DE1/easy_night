@@ -21,6 +21,6 @@ The Luanti engine can be found at [GitHub](https://github.com/minetest/minetest)
 
 For further information or help, see: [Installing Mods](https://wiki.luanti.org/Installing_Mods).
 
-## Licensing
+## License
 
 See `LICENSE.txt`
