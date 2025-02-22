@@ -1,6 +1,6 @@
-local time_to_sleep = tonumber(settings:get("time_to_sleep") or 0.78)
-local leaf_torch = settings:get_bool("leaf_torch") ~= false
-local sleeping_bag = settings:get_bool("sleeping_bag") ~= false
+local time_to_sleep = tonumber(minetest.settings:get("time_to_sleep") or 0.78)
+local leaf_torch = minetest.settings:get_bool("leaf_torch") ~= false
+local sleeping_bag = minetest.settings:get_bool("sleeping_bag") ~= false
 
 if leaf_torch then
 	minetest.register_craft({
