@@ -1,18 +1,18 @@
-# X-DE Modpack
+# Easy night
 
-It adds different mods and i modified some of them to my liking.
+Adds to Minetest Game a crafting recipe for torches with leafs, a sleeping bag, sleep at 18:44 and modify when to sleep.
 
 ## Installation
 
 ### ContentDB
 
 * Content > Browse Online Content
-* Search for "X-DE Modpack"
+* Search for "Easy night"
 * Click Install
 
 ### Manually
 
-- Unzip the archive, rename the folder to `xde_modpack` and
+- Unzip the archive, rename the folder to `easy_night` and
 place it in `.../minetest/mods/`
 
 - GNU/Linux: If you use a system-wide installation place it in `~/.minetest/mods/`.

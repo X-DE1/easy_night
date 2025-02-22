@@ -1,67 +1,8 @@
-#    Health and damage are multiply by this number
-mob_difficulty2 (Mob difficulty factor) float 0.7
+#    Time to sleep max 1
+time_to_sleep (Time to sleep) float 0.78
 
-#    The number of blocks per mob spawn multiply by this number
-mob_chance_multiplier2 (Mob chance multiplier) float 0.001
+#    Disable or enable Leaf torch
+leaf_torch (Leaf torch) bool true
 
-hudbars_bar_type2 (HUD bars style) enum statbar_modern statbar_modern,statbar_classic,progress_bar
-
-#    Disable or enable comboblock letter
-letter (Comboblock letter) bool false
-
-#    Disable or enable eat fast when touch screen is set
-auto_eat_fast (Auto eat fast) bool true
-
-#    Disable or enable eat fast
-eat_fast (Eat fast) bool false
-
-#    Disable or enable Lava orb
-lava_orb (Lava orb) bool false
-
-#    Disable or enable Lasso
-lasso (Lasso) bool false
-
-#    Disable or enable Saddle
-saddle (Saddle) bool false
-
-#    Disable or enable Lava Pick
-pick_lava (Lava Pick) bool false
-
-#    Disable or enable Net
-net (Net) bool false
-
-#    Disable or enable Nametag
-nametag (Nametag) bool false
-
-#    Disable or enable Leather
-leather (Leather) bool false
-
-#    Disable or enable Shears
-shears (Shears) bool false
-
-#    Disable or enable Wood Feance
-fence_wood (Wood Feance) bool false
-
-#    Disable or enable Top feance
-fence_top (Top feance) bool false
-
-#    Disable or enable Hearing vines
-hearing_vines (Hearing vines) bool false
-
-#    Disable or enable Protector
-protector (Protector) bool false
-
-#    Disable or enable Protector2
-protector2 (Protector 2) bool false
-
-#    Disable or enable Meat raw
-meat_raw (Meat raw) bool false
-
-#    Disable or enable Meat
-meat (Meat) bool false
-
-#    Disable or enable Meatblock raw
-meatblock_raw (Meatblock raw) bool false
-
-#    Disable or enable Meatblock
-meatblock (Meatblock) bool false
+#    Disable or enable Sleeping bag
+sleeping_bag (Sleeping bag reipe) bool true
