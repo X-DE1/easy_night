@@ -1,3 +1,5 @@
+dofile( minetest.get_modpath("easy_night") .. "/beds/api.lua")
+
 local time_to_sleep = tonumber(minetest.settings:get("time_to_sleep") or 0.78)
 local leaf_torch = minetest.settings:get_bool("leaf_torch") ~= false
 local sleeping_bag = minetest.settings:get_bool("sleeping_bag") ~= false
@@ -22,7 +24,7 @@ if sleeping_bag then
 
 	local S = minetest.get_translator("easy_night")
 
-	beds.register_bed("easy_night:sleeping_bag", {
+	register_bed2("easy_night:sleeping_bag", {
 		description = S("Sleeping bag"),
 		inventory_image = "beds_bed.png^[colorize:white:211",
 		wield_image = "beds_bed.png^[colorize:white:211",
